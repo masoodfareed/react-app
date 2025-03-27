@@ -23,7 +23,9 @@ function App() {
   // }
 
   const [items , setItems] = useState([
-    {id : 1, title: "Python Class" , description: "Have to take a python class tomorrow", status: false}
+    {id : 1, title: "Python Class" , description: "Have to take a python class tomorrow", status: false},
+    
+    {id : 2, title: "Python Class thursday" , description: "Have to take a python class tomorrow", status: false}
   ])
 
   function deleteItem(id)
